@@ -1,0 +1,172 @@
+body{
+    background-image: url(c4ed2397c0f68076e613cead6a737f16.jpg);
+    background-size:cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    background-color:blanchedalmond;
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    color:darkblue;
+}
+
+.g{
+    font-size: 50px;
+
+}
+
+.buth{
+    padding-left:700px;
+    padding-right:300px;
+    text-align:right;
+    cursor:pointer;
+}
+
+
+.but{
+    text-align: center;
+    font-size: 35px;
+    background-color:bisque;
+    cursor:pointer;
+   
+}
+
+.s{
+    background-color:bisque;
+    text-align: left;
+    max-width: 1000px;
+    border-radius:15px;
+    border-color:darkblue;
+    border-style: solid;
+    border-width: 2.95px;
+    min-height: 300px;
+    font-size: 70px;
+}
+
+.g:hover{
+    background-color:lightslategray;
+}
+
+.hj{
+    max-width: 200px;
+    background-color:bisque;
+    text-align: left;
+    border-radius:15px;
+    border-color:darkblue;
+    border-style: solid;
+    border-width: 6.65px;
+    margin-bottom: 50px;
+    max-height: 240px;
+    
+}
+
+.h2{
+    text-align: center;
+}
+
+.hh{
+    background-color: inherit;
+    border-radius: 6px;
+}
+
+.g:hover{
+cursor: pointer;
+}
+
+.gh:hover{
+    cursor: pointer;
+}
+
+.but1{
+    text-align: center;
+    font-size: 35px;
+    background-color:bisque;
+    cursor:pointer;
+   
+    display: inline-block;
+}
+.but2{
+    text-align: center;
+    font-size: 35px;
+    background-color:bisque;
+    cursor:pointer;
+   
+    display: inline-block;
+}
+.but3{
+    text-align: center;
+    font-size: 35px;
+    background-color:bisque;
+    cursor:pointer;
+   
+    display: inline-block;
+}
+.but4{
+    text-align: center;
+    font-size: 35px;
+    background-color:bisque;
+    cursor:pointer;
+   
+    display: inline-block;
+}
+.but5{
+    text-align: center;
+    font-size: 35px;
+    background-color:bisque;
+    cursor:pointer;
+   
+    display: inline-block;
+}
+.but6{
+    text-align: center;
+    font-size: 35px;
+    background-color:bisque;
+    cursor:pointer;
+   
+    display: inline-block;
+}
+
+.but7{
+    text-align: center;
+    font-size: 35px;
+    background-color:bisque;
+    cursor:pointer;
+   
+    display: inline-block;
+}
+.but8{
+    text-align: center;
+    font-size: 35px;
+    background-color:bisque;
+    cursor:pointer;
+   
+    display: inline-block;
+}
+
+.but9{
+    text-align: center;
+    font-size: 35px;
+    background-color:bisque;
+    cursor:pointer;
+   
+    display: inline-block;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }

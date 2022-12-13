@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grade 8 Science Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <h1 class="h" id="h">The power house of cell is called-</h1><div class="hj">
+    <h2 id="h2" class="h2">Choose the correct option</h2><h1 class="hh" id="hhh"></h1></div>
+    
+    <section class="s">
+    <input type="checkbox" id="cellwall" name="cell wall" value="cellwall" class="gh" onclick="hehe()" >
+  <label for="cellwall" class="g" id="1"> a) Cell Wall</label><br>
+  <input type="checkbox" id="mitochondria" name="mitochondria" value="mitochondria" class="gh" onclick="hehe1()">
+  <label for="mitochondria" class="g" id="2"> b) Mitochondria</label><br>
+  <input type="checkbox" id="ribosomes" name="ribosomes" value="ribosomes" class="gh" onclick="hehe2()">
+  <label for="ribosomes" class="g" id="3"> c) Ribosomes</label><br>
+  <input type="checkbox" id="nucleus" name="nucleus" value="nucleus" class="gh" onclick="hehe3()">
+  <label for="nucleus" class="g" id="4"> d) Nucleus</label><br></section>
+  <button type="button" id="but" class="but" onclick="mainfunction()">Submit</button>
+  <button type="button" id="but1" class="but1" onclick="mainfunction1()">Submit</button>
+  <button type="button" id="but2" class="but2" onclick="mainfunction2()">Submit</button>
+  <button type="button" id="but3" class="but3" onclick="mainfunction3()">Submit</button>
+  <button type="button" id="but4" class="but4" onclick="mainfunction4()">Submit</button>
+  <button type="button" id="but5" class="but5" onclick="mainfunction5()">Submit</button>
+  <button type="button" id="but6" class="but6" onclick="mainfunction6()">Submit</button>
+  <button type="button" id="but7" class="but7" onclick="mainfunction7()">Submit</button>
+  <button type="button" id="but8" class="but8" onclick="mainfunction8()">Submit</button>
+  <button type="button" id="but9" class="but9" onclick="mainfunction9()">Submit</button>
+
+<script>
+    document.getElementById("but1").style.display="none";
+    document.getElementById("but2").style.display="none";
+    document.getElementById("but3").style.display="none";
+    document.getElementById("but4").style.display="none";
+    document.getElementById("but5").style.display="none";
+    document.getElementById("but6").style.display="none";
+    document.getElementById("but7").style.display="none";
+    document.getElementById("but8").style.display="none";
+    document.getElementById("but9").style.display="none";
+  function mainfunction (){
+   var x=0;
+   if(mitochondria.checked==1){
+      var x = x+1;
+   } else{
+       var x = x+x;
+   
+  }
+      document.getElementById("h").innerHTML="When a sperm having X-chromosome fuses with the ovum, the child born will be-"
+      document.getElementById("1").innerHTML="a) Female"
+      document.getElementById("2").innerHTML="b) Male"
+      document.getElementById("3").innerHTML="c) Male as well as female twin"
+      document.getElementById("4").innerHTML="d) It depends on the chance of fusion"
+      document.getElementById("but").style.display="none";
+      document.getElementById("but1").style.display="block";
+}
+
+function mainfunction1(){
+  if(mitochondria.checked==1){
+      var x = x+1;
+   } else{
+       var x = x+0;}
+      document.getElementById("h").innerHTML="The strength of force is expressed by?"
+      document.getElementById("1").innerHTML="a) Weight"
+      document.getElementById("2").innerHTML="b) Magnitude"
+      document.getElementById("3").innerHTML="c) Mass"
+      document.getElementById("4").innerHTML="d) Friction"
+      document.getElementById("but1").style.display="none";
+      document.getElementById("but2").style.display="block";
+     
+
+}
+  
+</script>
+    
+</body>
+</html>
